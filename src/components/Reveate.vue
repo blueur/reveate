@@ -14,9 +14,6 @@
 </template>
 
 <script setup lang="ts">
-import "reveal.js/dist/reveal.css";
-import "reveal.js/dist/theme/white.css";
-
 import type { Api } from "reveal.js";
 import { computed, onBeforeMount } from "vue";
 import RevealMarkdown from "reveal.js/plugin/markdown/markdown";
